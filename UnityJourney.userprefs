@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NetWork/ChatRoom/server/TestServer.cs">
+    <Files>
+      <File FileName="Assets/multiplayer/MultiOnline/Scripts/MMenu.cs" Line="22" Column="2" />
+      <File FileName="Assets/multiplayer/MultiOnline/Scripts/MOServer.cs" Line="1" Column="1" />
+      <File FileName="Assets/socket/JFSocket.cs" Line="1" Column="1" />
+      <File FileName="Assets/NetWork/ChatRoom/client/ClientHandler.cs" Line="9" Column="1" />
+      <File FileName="Assets/NetWork/ChatRoom/server/TestServer.cs" Line="32" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
