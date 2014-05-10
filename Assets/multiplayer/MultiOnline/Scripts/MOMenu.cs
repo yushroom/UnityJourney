@@ -311,7 +311,12 @@ public class MOMenu : MonoBehaviour {
 	
 	// DisplayRegister GUI
 	private void DisplayRegister(){
-		
+
+		formRegisterName = "yushroom";
+		formRegisterMail = "yushroom@gmail.com";
+		formRegisterPass = "12345";
+		formRegisterPassConf = "12345";
+
 		GUI.Label(new Rect(20,sizeY, m.sizeLabelX,m.sizeLabelY), loginNameTxt);
 		formRegisterName = GUI.TextField(new Rect(m.sizeLabelX,sizeY,m.sizeFieldX,m.sizeFieldY), formRegisterName);
 		sizeY+= 40;
@@ -899,6 +904,7 @@ public class MOMenu : MonoBehaviour {
 			viewLoginMessage = true;
 			loginMessage = loginFailed;
 			for(int i = 0; i < server.errorMessages.Length; i++){
+				Debug.Log(server.errorMessages[i]);
 				if(server.errorMessages[i].Equals("errorPass")){
 					loginMessage+= errorLoginPass;
 				} else if(server.errorMessages[i].Equals("errorAlreadyLog")){

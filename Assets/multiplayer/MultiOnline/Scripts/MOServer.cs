@@ -10,7 +10,7 @@ namespace MultiPlayer {
 		// Main URL with a slash in the end
 		// Example : http://www.yourdomaine.com/
 		// OR : http://www.yourdomaine.com/folder/
-		public string url = "URL OF YOUR WEBSITE";
+		public string url = "127.0.0.1/GameLobby/";
 		// Register user URL :
 		public string registerUrl = "saveUser.php";
 		// Login user URL :
@@ -61,6 +61,9 @@ namespace MultiPlayer {
 				+"&mail="+System.Uri.EscapeUriString(mail)+"&pass="+System.Uri.EscapeUriString(pass)
 				+"&privateIP="+System.Uri.EscapeUriString(Network.player.ipAddress)+mailParam);
 	        yield return www;
+			Debug.Log(url+registerUrl+"?userName="+System.Uri.EscapeUriString(userName)
+			          +"&mail="+System.Uri.EscapeUriString(mail)+"&pass="+System.Uri.EscapeUriString(pass)
+			          +"&privateIP="+System.Uri.EscapeUriString(Network.player.ipAddress)+mailParam);
 			if(www.isDone){	
 				string trimText = www.text.Trim();
 				if(trimText == "Success") {						
@@ -193,6 +196,12 @@ namespace MultiPlayer {
 				+"&gamePort="+System.Uri.EscapeUriString(port.ToString())
 				+"&maxPlayer="+System.Uri.EscapeUriString(maxPlayer.ToString())
 				+"&usePass="+System.Uri.EscapeUriString(pass));
+			Debug.Log (url+registerGameUrl+"?id="+System.Uri.EscapeUriString(id.ToString())
+			           +"&loginKey="+System.Uri.EscapeUriString(loginKey)
+			           +"&gameName="+System.Uri.EscapeUriString(gameName)
+			           +"&gamePort="+System.Uri.EscapeUriString(port.ToString())
+			           +"&maxPlayer="+System.Uri.EscapeUriString(maxPlayer.ToString())
+			           +"&usePass="+System.Uri.EscapeUriString(pass));
 			 yield return www;
 			 if(www.isDone){			
 				string TrimText = www.text.Trim();

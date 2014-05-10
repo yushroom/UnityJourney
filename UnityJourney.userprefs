@@ -1,12 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NetWork/ChatRoom/server/TestServer.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/multiplayer/MultiOnline/Editor/MOMenuEditor.cs">
     <Files>
-      <File FileName="Assets/multiplayer/MultiOnline/Scripts/MMenu.cs" Line="22" Column="2" />
-      <File FileName="Assets/multiplayer/MultiOnline/Scripts/MOServer.cs" Line="1" Column="1" />
-      <File FileName="Assets/socket/JFSocket.cs" Line="1" Column="1" />
-      <File FileName="Assets/NetWork/ChatRoom/client/ClientHandler.cs" Line="9" Column="1" />
-      <File FileName="Assets/NetWork/ChatRoom/server/TestServer.cs" Line="32" Column="4" />
+      <File FileName="Assets/NetWork/ChatRoom/client/ClientHandler.cs" Line="12" Column="26" />
+      <File FileName="Assets/multiplayer/MultiOnline/Scripts/MPlayerData.cs" Line="1" Column="1" />
+      <File FileName="Assets/multiplayer/MultiOnline/Scripts/MOServer.cs" Line="126" Column="4" />
+      <File FileName="Assets/multiplayer/MultiOnline/Scripts/MOMenu.cs" Line="63" Column="30" />
+      <File FileName="Assets/multiplayer/MultiOnline/Editor/MOMenuEditor.cs" Line="79" Column="78" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

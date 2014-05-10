@@ -9,7 +9,7 @@ using System.Net.Sockets;
 
 public class ClientHandler : MonoBehaviour 
 {
-	const int portNo = 500;
+	const int portNo = 10100;
     private TcpClient _client;
     byte[] data;
 	
@@ -37,8 +37,6 @@ public class ClientHandler : MonoBehaviour
 		
 		if(GUI.Button(new Rect(120, 10, 80, 20), "Connect"))
 		{
-			//Debug.Log("hello");
-			
 			this._client = new TcpClient();
             this._client.Connect("127.0.0.1", portNo);
 
